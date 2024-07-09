@@ -88,3 +88,46 @@ header {
 .inspiration-description{
     margin-bottom: 48px;
 }
+/* My current target styles */
+.current-target{
+ 
+    /* margin-bottom: 250px; */
+    margin-top: 150px;
+}
+.target-content{
+    text-align: center;
+
+}
+.web-Language{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.html-content{
+    border-radius: 16px;
+    background: #FF4C1E0D;
+    margin: 0px 24px;
+    padding: 40px;
+}
+.css-content{
+    border-radius: 16px;
+    background: #004CE80D;
+    margin: 0px 24px;
+    padding: 40px;
+}
+.js-content{
+    border-radius: 16px;
+    background: #FFDF000D;
+    margin: 0px 24px;
+    padding: 40px;
+
+
+}
+.learn-more-btn {
+    margin: 24px 0;
+    /* padding: 30px 0; */
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+
+}
