@@ -62,13 +62,25 @@ header {
 }
 .Development{
     text-align: center;
-    margin: 80px 150px;
+    /* margin: 80px 150px; */
+    
+}
+.Development-section{
+   
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: #0D132105;
+
+
+
 }
 .development-description{
     display: flex;
     gap: 60px;
     align-items: flex-start;
     margin-bottom: 32px;
+    border-radius: 16px;
+    background: #FFFFFF;
 }
 .btn-primary {
     box-sizing: border-box;
@@ -87,6 +99,13 @@ header {
 }
 .inspiration-description{
     margin-bottom: 48px;
+}
+.video-content{
+    box-sizing: border-box;
+    background: #0D132133;
+    border-radius: 16px;
+    margin: 48px 0;
+    padding: 32px;
 }
 /* My current target styles */
 .current-target{
@@ -123,11 +142,87 @@ header {
 
 
 }
+
 .learn-more-btn {
     margin: 24px 0;
     /* padding: 30px 0; */
     font-weight: 700;
     line-height: 19px;
     text-decoration-line: underline;
+    border: none;
 
+}
+/* Next target styles */
+/* .next-target-description{
+    display: flex;
+} */
+ .next-target-section {
+     margin: 111px 0px;
+     
+ }
+.target-title{
+    text-align: center;
+    margin: 48px 0px;
+}
+.next-target-description{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target-description img {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 94.78px;
+    height: 84.41px;
+    
+}
+.next-target-content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid #0D132126;
+    border-radius: 16px;
+    background: white;
+}
+
+/* support section styles */
+
+.support-section{
+    background-image: url(../assets/handshake.jpg);
+    max-width: 1140px;
+    height: 300px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    margin-top: 150px;
+    margin-bottom: 80px;
+    padding: 64px 48px;
+    text-align: center;
+
+}
+.support-submit{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.support-title{
+    color: white;
+}
+.btn-submit{
+    border-radius: 8px;
+    background: white;
+    margin: 0 16px;
+    padding: 11px 16px;
+}
+.text-area{
+    box-sizing: border-box;
+    border: 1px solid #0D132126;
+    border-radius: 8px;
+    background: white;
+    margin: 0 16px;
+    padding: 0 5px;
+}
+.support-content{
+    margin-top: 120px;
 }
