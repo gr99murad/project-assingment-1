@@ -3,6 +3,15 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* shared styles */
+.use-color{
+    color: #0D1321;
+    opacity: 0.7;
+}
+.title-dev-color{
+    color: #0D1321B3;
+
+}
 /* banner styles */
 header {
     background-image: url(../assets/Hero-bg.png);
@@ -27,6 +36,7 @@ header {
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
+    padding: 0 60px;
     
 
 }
@@ -43,3 +53,28 @@ header {
 
 }
 /*Development section styles */
+.developer-section {
+    width: 1140px;
+    margin-left: 148px;
+    margin-right: 152px;
+    padding: 48px;
+    /* margin-bottom: 32px; */
+}
+.Development{
+    text-align: center;
+    margin: 80px 150px;
+}
+.development-description{
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+.btn-primary {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin: 32px 0;
+    padding: 12px 20px;
+
+}
