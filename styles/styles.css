@@ -78,3 +78,13 @@ header {
     padding: 12px 20px;
 
 }
+/* My inspiration styles */
+.inspiration-section{
+    text-align: center;
+}
+.inspiration-title{
+    margin-bottom: 24px;
+}
+.inspiration-description{
+    margin-bottom: 48px;
+}
