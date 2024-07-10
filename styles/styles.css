@@ -2,6 +2,7 @@
 
 body{
     font-family: "Azeret Mono", monospace;
+    margin: 0;
 }
 /* shared styles */
 .use-color{
@@ -12,14 +13,42 @@ body{
     color: #0D1321B3;
 
 }
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-top:50px;
+    line-height: 33px;
+}
+.btn-download {
+    box-sizing: border-box;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    opacity: 0.8;
+    margin-top: 38px;
+    padding: 17px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+}
+.btn-download:hover{
+    cursor: pointer;
+}
 /* banner styles */
 header {
     background-image: url(../assets/Hero-bg.png);
-    max-width: 1440px;
+    max-width: 1520px;
     height: 652px;
-    margin-top: 131px;
+    margin-top: 50px;
     margin-left: 0;
     margin-right: 0;
+    padding: 0;
 }
 .banner-content{
     text-align: center;
@@ -52,6 +81,10 @@ header {
     text-align: center;
 
 }
+.btn-contact-me:hover{
+    cursor: pointer;
+}
+
 /*Development section styles */
 .developer-section {
     width: 1140px;
@@ -88,7 +121,9 @@ header {
     opacity: 0.7;
     margin: 32px 0;
     padding: 12px 20px;
-
+}
+.btn-primary:hover{
+    cursor: pointer;
 }
 /* My inspiration styles */
 .inspiration-section{
@@ -152,6 +187,9 @@ header {
     border: none;
 
 }
+.learn-more-btn:hover{
+    cursor: pointer;
+}
 /* Next target styles */
 /* .next-target-description{
     display: flex;
@@ -189,15 +227,18 @@ header {
 /* support section styles */
 
 .support-section{
-    background-image: url(../assets/handshake.jpg);
+    background-image: url(../assets/handshake2.jpg);
     max-width: 1140px;
-    height: 300px;
+    height: 350px;
     /* margin-left: 150px;
     margin-right: 150px; */
     margin-top: 150px;
     margin-bottom: 80px;
     padding: 64px 48px;
     text-align: center;
+    box-sizing: border-box;
+    border: #0D132126;
+    border-radius: 16px;
 
 }
 .support-submit{
@@ -205,15 +246,24 @@ header {
     gap: 16px;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
 }
 .support-title{
     color: white;
+}
+.support-title h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
 }
 .btn-submit{
     border-radius: 8px;
     background: white;
     margin: 0 16px;
     padding: 11px 16px;
+}
+.btn-submit:hover{
+    cursor: pointer;
 }
 .text-area{
     box-sizing: border-box;
@@ -224,5 +274,39 @@ header {
     padding: 0 5px;
 }
 .support-content{
-    margin-top: 120px;
+    margin-top: 20px;
+    padding: 0 60px;
+}
+
+textarea {
+    color: #0D132166;
+    /* width: 313px; */
+    height: 30px;
+    margin: 0 10px;
+    padding-top: 10px;
+
+}
+/* footer styles */
+.Social-media {
+    display: flex;
+    justify-content: space-around;
+    gap: 526px;
+    /* width: 1140px; */
+    height: 36px;
+    margin: 32px;
+}
+.footer-title{
+    /* margin: 0 16px; */
+    font-size: 20px;
+
+}
+footer{
+    max-width: 1440px;
+    height: 100px;
+    padding: 32px 150px;
+    border-radius: 16px;
+    background: #0D132108;
+}
+.social-icons{
+    padding-top: 15px;
 }
