@@ -13,6 +13,9 @@ body{
     color: #0D1321B3;
 
 }
+.all-title{
+    padding-bottom: 24px;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -79,6 +82,7 @@ header {
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    margin-top: 32px;
 
 }
 .btn-contact-me:hover{
@@ -92,6 +96,9 @@ header {
     margin-right: 152px;
     padding: 48px;
     /* margin-bottom: 32px; */
+}
+.developer-title{
+    padding-bottom: 16px;
 }
 .Development{
     text-align: center;
@@ -107,10 +114,12 @@ header {
 
 
 }
+
 .development-description{
     display: flex;
     gap: 60px;
     align-items: flex-start;
+    margin-top: 48px;
     margin-bottom: 32px;
     border-radius: 16px;
     background: #FFFFFF;
@@ -227,7 +236,7 @@ header {
 /* support section styles */
 
 .support-section{
-    background-image: url(../assets/handshake2.jpg);
+    background-image:url(../assets/handshake2.jpg);
     max-width: 1140px;
     height: 350px;
     /* margin-left: 150px;
@@ -276,6 +285,7 @@ header {
 .support-content{
     margin-top: 20px;
     padding: 0 60px;
+    background: rgba(0,0,0,0.2);
 }
 
 textarea {
